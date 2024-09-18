@@ -1,0 +1,14 @@
+# Use a imagem base do OpenJDK
+FROM openjdk:17-jdk-slim
+
+# Adicione o jar do aplicativo ao container
+COPY target/auth-service.jar /app/auth-service.jar
+
+# Defina o diretório de trabalho
+WORKDIR /app
+
+# Comando para executar o jar
+ENTRYPOINT ["java", "-jar", "auth-service.jar"]
+
+# Exponha a porta que o Auth Service vai rodar
+EXPOSE 8081

@@ -1,0 +1,52 @@
+services:
+  discovery-service:
+    build:
+      context: ./discovery-service
+    ports:
+      - "8761:8761"
+    networks:
+      - my-network
+
+  api-gateway:
+    build:
+      context: ./api-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - discovery-service
+    networks:
+      - my-network
+
+  auth-service:
+    build:
+      context: ./auth-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - discovery-service
+    networks:
+      - my-network
+
+  biometrics-service:
+    build:
+      context: ./biometrics-service
+    ports:
+      - "8082:8082"
+    depends_on:
+      - discovery-service
+    networks:
+      - my-network
+
+  turnstile-service:
+    build:
+      context: ./turnstile-service
+    ports:
+      - "8083:8083"
+    depends_on:
+      - discovery-service
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Selector</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Selecione uma tela para navegar.">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9ecef;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #343a40;
+            color: #fff;
+            border-radius: 8px 8px 0 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        #content {
+            padding: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Bem-Vindo!</h1>
+    </header>
+    <main>
+        <div class="button-container">
+            <button onclick="window.location.href='auth.html'" aria-label="Tela de Autenticaçãon">Tela de Autenticaçãon</button>
+            <button onclick="window.location.href='biometrics.html'" aria-label="Tela de Biometria">Tela de Biometria</button>
+            <button onclick="window.location.href='turnstile_service/turnstile.html'" aria-label="Tela de Acesso">Tela de Acesso</button>
+        </div>
+        <section id="content" aria-live="polite">
+            <!-- O conteúdo das páginas será carregado aqui -->
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 UFRPE</p>
+    </footer>
+</div>
+</body>
+</html>
