@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Serviço de Catraca</title>
+    <link href="turnstile-service/src/main/resources/templates/turnstile.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #1B3A61; /* Azul UFRPE */
+        }
+        p {
+            font-size: 18px;
+            color: #1B3A61; /* Azul UFRPE */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Serviço de Catraca</h1>
+    <p>Acesso concedido!</p>
+</div>
+<script>
+    setTimeout(function() {
+        window.location.href = 'index.html';
+    }, 3000); // Redireciona após 3 segundos
+</script>
+</body>
+</html>

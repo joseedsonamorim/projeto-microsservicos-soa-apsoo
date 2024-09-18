@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Serviço de Biometria</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Serviço de Biometria para validação digital.">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #1B3A61; /* Azul UFRPE */
+        }
+        p {
+            font-size: 18px;
+            color: #1B3A61; /* Azul UFRPE */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Serviço de Biometria</h1>
+    <p>Coletando biometria...</p>
+</div>
+<script>
+    setTimeout(function() {
+        window.location.href = 'turnstile.html';
+    }, 5000); // Redireciona após 5 segundos
+</script>
+</body>
+</html>

@@ -5,36 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c017fbb4-f66e-440c-ac88-9dc0be7b8847" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/projeto-microsservicos-soa-apsoo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/apsoo/urfpe/ms/autenticacao/Repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/apsoo/urfpe/ms/autenticacao/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/apsoo/urfpe/ms/autenticacao/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/apsoo/urfpe/ms/autenticacao/service/AuthenticationServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/java/com/apsoo/urfpe/ms/autenticacao/AutenticacaoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/java/com/apsoo/urfpe/ms/autenticacao/controller/AutenticacaoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/java/com/apsoo/urfpe/ms/autenticacao/model/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/java/com/apsoo/urfpe/ms/autenticacao/service/AutenticacaoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autenticacao/src/test/java/com/apsoo/urfpe/ms/autenticacao/AutenticacaoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/test/java/com/apsoo/urfpe/ms/autenticacao/AutenticacaoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biometria/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biometria/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biometria/src/main/java/com/apsoo/urfpe/ms/biometria/BiometriaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biometria/src/main/java/com/apsoo/urfpe/ms/biometria/controller/BiometriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/biometria/src/main/java/com/apsoo/urfpe/ms/biometria/controller/BiometricController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biometria/src/main/java/com/apsoo/urfpe/ms/biometria/model/Biometria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biometria/src/main/java/com/apsoo/urfpe/ms/biometria/service/BiometriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/biometria/src/main/java/com/apsoo/urfpe/ms/biometria/service/BiometricServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catraca/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catraca/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catraca/src/main/java/com/apsoo/urfpe/ms/catraca/CatracaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catraca/src/main/java/com/apsoo/urfpe/ms/catraca/controller/CatracaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catraca/src/main/java/com/apsoo/urfpe/ms/catraca/controller/TurnstileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catraca/src/main/java/com/apsoo/urfpe/ms/catraca/service/CatracaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catraca/src/main/java/com/apsoo/urfpe/ms/catraca/service/TurnstileServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catraca/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catraca/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/templates/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biometrics-service/src/main/resources/templates/biometrics.html" beforeDir="false" afterPath="$PROJECT_DIR$/biometrics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnstile-service/src/main/resources/templates/turnstile.html" beforeDir="false" afterPath="$PROJECT_DIR$/turnstile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +51,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/HTML" />
       <recent name="$PROJECT_DIR$/autenticacao/src/main/java/com/apsoo/urfpe/ms/autenticacao/Repository" />
     </key>
   </component>
@@ -100,6 +77,7 @@
       <workItem from="1726547662757" duration="44000" />
       <workItem from="1726547708044" duration="1085000" />
       <workItem from="1726548951917" duration="299000" />
+      <workItem from="1726679103856" duration="6008000" />
     </task>
     <servers />
   </component>

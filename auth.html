@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Biometrics Service</title>
+    <title>Catraca R.U.</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <meta name="description" content="Serviço de Biometria para validação digital.">
+    <meta name="description" content="Serviço de Autenticação para acesso seguro.">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,6 +26,7 @@
         }
         h1 {
             margin-bottom: 20px;
+            color: #003366; /* Azul escuro UFRPE */
         }
         form {
             display: flex;
@@ -35,6 +36,7 @@
         label {
             margin-bottom: 10px;
             font-weight: bold;
+            color: #003366; /* Azul escuro UFRPE */
         }
         input {
             padding: 10px;
@@ -49,25 +51,32 @@
             font-size: 16px;
             cursor: pointer;
             border: none;
-            background-color: #007BFF;
+            background-color: #006633; /* Verde UFRPE */
             color: #fff;
             border-radius: 5px;
             transition: background-color 0.3s;
         }
         button:hover {
-            background-color: #0056b3;
+            background-color: #004d26; /* Verde escuro UFRPE */
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <h1>Biometrics Service</h1>
-    <form id="biometrics-form">
-        <label for="digital">Digital:</label>
-        <input id="digital" name="digital" required type="text"><br>
-        <button type="submit">Validate</button>
+    <h1>R.U.</h1>
+    <form id="auth-form">
+        <label for="matricula">Matrícula:</label>
+        <input id="matricula" name="matricula" required type="text"><br>
+        <label for="senha">Senha:</label>
+        <input id="senha" name="senha" required type="password"><br>
+        <button type="submit">Login</button>
     </form>
 </div>
-<script src="biometrics.js"></script>
+<script>
+    document.getElementById('auth-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Evita o comportamento padrão do formulário
+        window.location.href = 'biometrics.html'; // Redireciona para biometrics.html
+    });
+</script>
 </body>
 </html>
